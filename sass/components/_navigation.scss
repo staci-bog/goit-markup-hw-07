@@ -18,10 +18,10 @@
     letter-spacing: 0.02em;
     text-decoration: none;
   }
-  .site-nav__link:hover,
-  .site-nav__link:focus {
-    color: var(--accent-color);
-  }
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
   .site-nav__link.current {
     color: var(--accent-color);
     position: relative;
@@ -51,10 +51,10 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
   }
-  .auth-nav__link:hover,
-  .auth-nav__link:focus {
-  color: var(--accent-color);  
-  }
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
   .auth-nav__link {
     display: flex;
     align-items: center;

@@ -50,10 +50,10 @@
     color: var(--primary-white-color);
     text-decoration: none;
   }
-  .footer__link:hover,
-  .footer__link:focus {
-    color: var(--accent-color);
-  }
+        &:hover,
+        &:focus {
+          color: var(--accent-color);
+        }
   .footer__contacts {
     color: var(--secondary-white-color);
     text-decoration: none;
@@ -85,26 +85,26 @@
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
   }
-  .footer__social-item:nth-child(4n) {
-    margin-right: 0;
-  }
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
   .footer__icons {
     display: inline-flex;
     padding-inline: 0;
     margin-top: 0;
   }  
-  .footer__icons  .footer__social-item:hover,
-  .footer__icons  .footer__social-item:focus {
-    background-color: var(--accent-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    &__icons &__social-item:hover,
+    &__icons &__social-item:focus {
+      background-color: var(--accent-color);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
   
   .footer__icons .footer__icon {
     fill:  var(--primary-white-color);
   }
-  .footer__icons .footer__social-link:hover .social-icon {
-    fill: var(--primary-white-color);
-  }
+    &__icons &__social-link:hover &-icon {
+      fill: var(--primary-white-color);
+    }
   .footer__sbr-block {  
     width: 570px; 
   }
@@ -130,10 +130,10 @@
     cursor: pointer;
     position: relative;
   }
-  .footer__button svg {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    bottom: 10px;
-    right: 30px;
-  }
+    &__button svg {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      bottom: 10px;
+      right: 30px;
+    }

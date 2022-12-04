@@ -12,10 +12,10 @@
   .header__link {
     text-decoration: none;
   }
-  .header__link:hover,
-  .header__link:focus {
-    color: var(--accent-color);
-  }
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
    /* header logo */
    .header__logo-web {
     font-family: 'Raleway';

@@ -21,19 +21,21 @@
     margin-right: 30px;
     margin-bottom: 0px;
   }
-  .quality__item:nth-child(4n) {
-    margin-right: 0;
-  }
-  .quality__item::before {
-    display: block;
-    content: "";
-    height: 120px;
-    border-radius: 4px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--second-bg-color);
-    margin-bottom: 30px;
-  }
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  
+    &::before {
+      display: block;
+      content: "";
+      height: 120px;
+      border-radius: 4px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: var(--second-bg-color);
+      margin-bottom: 30px;
+    }
+    
   .icon-antenna::before {
     background-image: url(../images/icons/antenna\ 1.svg);
   }
